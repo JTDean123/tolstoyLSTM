@@ -12,9 +12,9 @@ python tolstoyLSTM.py --epochs 50 --nodes 500 --batchsize 256
 ```
 
 The generated text should start to sound (somewhat) coherent after ~50 epochs with default settings.  An example sentence generated after 200 epochs using the random seed:   
-'''
+```
 ppiness, he walked with a slight swing on each leg
-'''
+```
 
 The following output was generated:  
 ```

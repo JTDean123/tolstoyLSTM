@@ -238,7 +238,7 @@ def output(seed, predicted):
 
 
 def run():
-    # read use passed arguments
+    # read user passed arguments
     parser = OptionParser()
     parser.add_option("-e", "--epochs", dest="epochs", help="number of epochs to train", default="200")
     parser.add_option("-b", "--batchsize", dest="batchsize", help="batchsize", default="128")

@@ -111,7 +111,7 @@ def sampler(guess):
 
 def lstm(features, labels, rand_sentence, numDict, epochs, batch_size, nodes):
     """
-    Randomly sample a multinomial probability distribution of predicted characters
+    train a lstm on text at single character level
     :param features:  text corpus for model training
     :param labels:  truth array of features, or next letter in the sentence (time series)
     :param random_sentence:  random seed for sentence prediction
